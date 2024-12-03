@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    background-color: #1B1833;
+}
+
+.calculator{
+    display: grid;
+    place-items: center;
+    padding-top: 6rem;
+}
+
+.calculator h1{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.calculator-screen{
+    padding-top: 1.6rem;
+}
+
+.calulator-screen input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-right: .4rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    outline: #fff;
+    background-color: #F29F58;
+    border: 1px solid  #000;
+    text-align: right;
+}
+
+.calulator-screen input::placeholder{
+    color: #AB4459;
+}
+
+.calculator-row{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.calculator-row button{
+    background-color: #F29F58;
+    /* padding: .8rem .8rem; */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4rem;
+    border: none;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.calculator-row button:hover{
+    background-color: #AB4459;
+}
