@@ -10,7 +10,7 @@ arr.forEach(button => {
             calScreen = eval(calScreen);
             input.value = calScreen;
         } else if(e.target.innerHTML == 'AC'){
-            calScreen = "0";
+            calScreen = "";
             input.value = calScreen;
         } 
          else{
